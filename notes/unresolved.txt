@@ -3,105 +3,20 @@
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
 AppendLangExt(char (&) [255], Locale::Languages) | reversetriv.so
-MeritthonDisplayRound(int, int, int, unsigned long) | reversetriv.so
 t_i_l() | reversetriv.so
-u_m_m_s(char const*, char*, char*, unsigned int) | reversetriv.so
 TextSystem::ConvertToMarkup(char const*) | reversetriv.so
 TextSystem::GetSpriteChannels(char const*, unsigned char**, unsigned char**, int, int, bool, bool, int, float) | reversetriv.so
 TextSystem::SetTextDescription(TextDesc const&) | reversetriv.so
 Translator::NOT_FOUND_STR | reversetriv.so
-Translator::LoadTranslations(xml_gameinfo::GameIds) | reversetriv.so
-Translator::SetCurrentLanguage(Locale::Languages) | reversetriv.so
-WorldClass::RefreshArea(int, int, int, int) | reversetriv.so
-WorldClass::LoadBmp(char const*, int, float, int, int, bool, bool, Bitmap*) | reversetriv.so
-WorldClass::SetBack(char const*, int) | reversetriv.so
-WorldClass::ShowAll() | reversetriv.so
-WorldClass::DeleteBmp(Bitmap*, unsigned char) | reversetriv.so
-WorldClass::NextFrame(unsigned char, unsigned char, bool, bool, bool, bool) | reversetriv.so
-WorldClass::PlayMovie(int, unsigned long, void (*)(unsigned char), unsigned char, bool, bool, bool, bool) | reversetriv.so
-WorldClass::WorldClass() | reversetriv.so
-TriviaClass::GetQuesData(int, int) | reversetriv.so
-TriviaClass::GetRandomCat() | reversetriv.so
-TriviaClass::TriviaClass(xml_gamerandom::BigTrivPICRAND_record*, char*, unsigned char, unsigned char, unsigned char) | reversetriv.so
-TriviaClass::~TriviaClass() | reversetriv.so
-db_gamedata::gamedata_record::gamedata_record(db_gamedata::gamedata_record const&) | reversetriv.so
-db_gamedata::gamedata_record::gamedata_record() | reversetriv.so
-db_gamedata::gamedata_record::~gamedata_record() | reversetriv.so
-system_info::Get_Motherboard_Type() | reversetriv.so
-xml_gamerandom::BigTrivPICRAND_record::AdjustTime(int, long) | reversetriv.so
-xml_gamerandom::BigTrivPICRAND_record::BigTrivPICRAND_record(xml_gamerandom::BigTrivPICRAND_record const&) | reversetriv.so
-xml_gamerandom::BigTrivPICRAND_record::BigTrivPICRAND_record() | reversetriv.so
-xml_gamerandom::BigTrivPICRAND_record::~BigTrivPICRAND_record() | reversetriv.so
-xml_gamerandom::BigTrivPICRAND_record::operator=(xml_gamerandom::BigTrivPICRAND_record const&) | reversetriv.so
-abstract_metadata::abstract_metadata(char const*, db_common_field_def const*, int, char const*, db_common_index_def const*, int, char const* const*, int, bool) | reversetriv.so
-abstract_xml_record::AdjustTimeFields(int, long) | reversetriv.so
-abstract_xml_record::abstract_xml_record(abstract_xml_record const&) | reversetriv.so
-abstract_xml_record::abstract_xml_record() | reversetriv.so
-abstract_xml_record::~abstract_xml_record() | reversetriv.so
-List::Push(Group*) | reversetriv.so
-List::Clear(unsigned char) | reversetriv.so
-List::List(List*) | reversetriv.so
-Books::Credits(xml_gameinfo::GameIds, enums::Span) | reversetriv.so
-Books::Instance() | reversetriv.so
-Group::Signal(Group::SpriteSignalType) | reversetriv.so
-Group::Signal(SpriteSignal*) | reversetriv.so
-Group::Message(Group::SpriteSignalType) | reversetriv.so
-Group::Message(SpriteSignal*) | reversetriv.so
 USBIO::FoundUSB() | reversetriv.so
-Bitmap::TTFtoCData(unsigned char*, unsigned char*, int, int) | reversetriv.so
-Bitmap::CopyFromScreen(int, int, bool) | reversetriv.so
-Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | reversetriv.so
-Bitmap::GreyBmp() | reversetriv.so
 Colour::black | reversetriv.so
 Colour::white | reversetriv.so
-EventO::GetType() | reversetriv.so
-EventO::EventO() | reversetriv.so
-EventO::~EventO() | reversetriv.so
 Locale::LanguageManager::LegacyFallback(Locale::Languages) | reversetriv.so
-Sprite::DoNextFrame() | reversetriv.so
-Sprite::ClicksEnabled | reversetriv.so
-Sprite::LastEventTime() | reversetriv.so
-Sprite::DoDraw() | reversetriv.so
-Sprite::Enable(unsigned long) | reversetriv.so
-Sprite::SetBmp(Bitmap*, unsigned long) | reversetriv.so
-Sprite::Signal(Group::SpriteSignalType) | reversetriv.so
-Sprite::Signal(SpriteSignal*) | reversetriv.so
-Sprite::Disable(unsigned long, bool) | reversetriv.so
-Sprite::Message(Group::SpriteSignalType) | reversetriv.so
-Sprite::Message(SpriteSignal*) | reversetriv.so
-Sprite::RunAnim(Bitmap*, int, int, int, unsigned long, float, unsigned long, int) | reversetriv.so
-Sprite::SetCord(float, float, float, unsigned long) | reversetriv.so
-Sprite::SetSize(int, int) | reversetriv.so
-Sprite::DoCommand(int) | reversetriv.so
-Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | reversetriv.so
-Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | reversetriv.so
-Sprite::~Sprite() | reversetriv.so
-Settings::Init() | reversetriv.so
-Settings::Load() | reversetriv.so
-Settings::Cleanup() | reversetriv.so
-Settings::Restore(abstract_xml_record const*) | reversetriv.so
-Settings::Settings(char const*, unsigned int) | reversetriv.so
-Settings::~Settings() | reversetriv.so
 TextDesc::SetFontName(char const*) | reversetriv.so
 GameClass::GameClass() | reversetriv.so
 GameClass::~GameClass() | reversetriv.so
-TextUtils::MeritStringToUTF8(char const*, Locale::Languages) | reversetriv.so
-TextUtils::VPatch(char*, int, char const*, char const*, ...) | reversetriv.so
-xml_gamerandom::BigTrivPICRAND_record::operator!=(xml_gamerandom::BigTrivPICRAND_record const&) const | reversetriv.so
 Locale::LanguageManager::Base() const | reversetriv.so
-Settings::Key(unsigned int, bool) const | reversetriv.so
-typeinfo for abstract_record | reversetriv.so
-typeinfo for abstract_xml_record | reversetriv.so
-typeinfo for EventO | reversetriv.so
-typeinfo for Sprite | reversetriv.so
-typeinfo for Settings | reversetriv.so
 typeinfo for GameClass | reversetriv.so
-typeinfo for xml_gamerandom::BigTrivPICRAND_record | reversetriv.so
-vtable for DOSLinuxWorld | reversetriv.so
-clear_bitmap | reversetriv.so
-exists | reversetriv.so
-gfx_driver | reversetriv.so
-screen | reversetriv.so
 uremove | reversetriv.so
 usetat | reversetriv.so
 ustrstr | reversetriv.so
