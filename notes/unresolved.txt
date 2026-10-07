@@ -9,5 +9,3 @@ USBIO::FoundUSB() | reversetriv.so
 uremove | reversetriv.so
 usetat | reversetriv.so
 ustrstr | reversetriv.so
-ustrzcpy | reversetriv.so
-uszprintf | reversetriv.so
