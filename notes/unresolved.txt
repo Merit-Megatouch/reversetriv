@@ -4,19 +4,8 @@
 # symbol | needed by
 AppendLangExt(char (&) [255], Locale::Languages) | reversetriv.so
 t_i_l() | reversetriv.so
-TextSystem::ConvertToMarkup(char const*) | reversetriv.so
-TextSystem::GetSpriteChannels(char const*, unsigned char**, unsigned char**, int, int, bool, bool, int, float) | reversetriv.so
-TextSystem::SetTextDescription(TextDesc const&) | reversetriv.so
 Translator::NOT_FOUND_STR | reversetriv.so
 USBIO::FoundUSB() | reversetriv.so
-Colour::black | reversetriv.so
-Colour::white | reversetriv.so
-Locale::LanguageManager::LegacyFallback(Locale::Languages) | reversetriv.so
-TextDesc::SetFontName(char const*) | reversetriv.so
-GameClass::GameClass() | reversetriv.so
-GameClass::~GameClass() | reversetriv.so
-Locale::LanguageManager::Base() const | reversetriv.so
-typeinfo for GameClass | reversetriv.so
 uremove | reversetriv.so
 usetat | reversetriv.so
 ustrstr | reversetriv.so
